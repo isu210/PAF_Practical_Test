@@ -1,0 +1,12 @@
+create table payemnts(
+id int NOT NULL AUTO_INCREMENT,
+amount varchar(10) NOT NULL,
+type varchar(4) NOT NULL,
+patient_name varchar(50),
+PRIMARY KEY(id)
+);
+
+Insert into payments(amount,type,patient_name) values('1500.00','cash','T.Kumara');
+Insert into payments(amount,type,patient_name) values('500.00','card','M.M Weerasinghe');
+Insert into payments(amount,type,patient_name) values('1000.00','card','Y.Weerasinghe');
+Insert into payments(amount,type,patient_name) values('1500.00','cash','Y.S Weerasinghe');
